@@ -1,0 +1,26 @@
+const React = require('react');
+const Def = require("../default.jsx");
+
+function index (data) {
+    let placesFormatted = data.places.map((place) => {
+      return (
+        <div key={index}>
+          <h2>{place.name}</h2>
+          <img src={place.pic} alt={place.name}/>
+        </div>
+      );
+    });
+    let attributes = {
+        'title':'Places'
+    };
+    return (
+        <Def {...attributes}>
+          <main>
+              <h1>PLACES INDEX PAGE</h1>
+              {placesFormatted}
+          </main>
+        </Def>
+    );
+};
+
+module.exports = index
