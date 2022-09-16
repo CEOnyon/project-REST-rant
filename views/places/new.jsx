@@ -17,7 +17,7 @@ function new_form() {
                     </div>
                     <div className='form-gorup'>
                         <label htmlFor="city">City</label>
-                        <input className='form-control' id="city" name="pic" />
+                        <input className='form-control' id="city" name="city" />
                     </div>
                     <div className='form-gorup'>
                         <label htmlFor="pic">State</label>
