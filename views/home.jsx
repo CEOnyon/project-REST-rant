@@ -18,8 +18,6 @@ function home () {
                 <button className="btn btn-primary">Places Page</button>
             </a>
             </main>
-            
-
         </Def>
     );
 };
