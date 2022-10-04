@@ -29,11 +29,11 @@ function new_form(data) {
                         <input className='form-control' id="city" name="city" />
                     </div>
                     <div className='form-gorup'>
-                        <label htmlFor="pic">State</label>
+                        <label htmlFor="state">State</label>
                         <input className='form-control' id="state" name="state" />
                     </div>
                     <div className='form-gorup'>
-                        <label htmlFor="pic">Cuisines</label>
+                        <label htmlFor="cuisines">Cuisines</label>
                         <input className='form-control' id="cuisines" name="cuisines" required/>
                     </div>
                     <div className="form-group">
