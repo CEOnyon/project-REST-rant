@@ -24,4 +24,4 @@ app.get('*', (req, res) => {
 });
 
 // listen for connections
-app.listen(process.env.PORT);
+app.listen(process.env.MONGO_URI);
