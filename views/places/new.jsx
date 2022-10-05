@@ -42,7 +42,7 @@ function new_form(data) {
                         type="number"  
                         id="founded" 
                         name="founded" 
-                        value={data.place.founded} />
+                        value={new Date().getFullYear()} />
                     </div>
                     <input className='btn btn-primary' type="submit" value="Add Place"/>
                 </form>

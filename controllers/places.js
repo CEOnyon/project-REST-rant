@@ -93,6 +93,8 @@ router.post('/:id/rant', (req,res) => {
 });
 
 router.post('/:id/comment', (req, res) => {
+  if (req.body.author === '') { req.body.author = undefined }
+  req.body.rant = req.body.rant ? true : false
   console.log(req.body)
   db.Place.findById(req.params.id)
   .then(place => {
